@@ -44,7 +44,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #24292f;
+    background-color: rgba(36, 41, 47, 0.8);
     position: absolute;
     top: 0;
     left: -100%;
@@ -56,6 +56,7 @@
   }
   .navbar-nav.active {
     left:0;
+    z-index:9;
   }
   .navbar-nav a {
     font-size: 1.6rem;
